@@ -17,7 +17,7 @@ import dev.data.abstraction.IContactRepository;
  */
 @Component
 public class StartupDataInit {
-
+/*
 
     private IContactRepository contactRepository;
     
@@ -30,9 +30,7 @@ public class StartupDataInit {
 
 
 
-	/**
-     * initialise la bdd
-     */
+	
     // La méthode init va être invoquée au démarrage de l'application.
     @EventListener(ContextRefreshedEvent.class)
     public void init() {
@@ -41,5 +39,5 @@ public class StartupDataInit {
     	contactRepository.save(contact);
         
     }
-
+*/
 }
